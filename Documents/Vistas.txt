@@ -1,0 +1,5 @@
+
+create view vista1 as (select pro_nombre,pro_precio from producto where pro_precio=max(pro_precio));
+create view vista2 as (select med_nombre,med_precio from medicamento );
+create view vista3 as (select  per_nombre,emp_id,cargo_id from empleado);
+create view vista 4 as(select per_cedula,cli_prestigio from cliente);
